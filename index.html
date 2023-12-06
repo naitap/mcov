@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>files</title>
+        <meta charset="UTF-8">
+        
+        <style>
+            .r {
+                text-align: right;
+            }
+
+            table {
+                width: 100%;
+                margin: 0 auto;
+                border: 1px solid #000000;
+                border-collapse: collapse;
+            }
+    
+            th, td {
+                border: 1px solid #000000;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>所有文件</h1>
+        <table>
+            <thead>
+                <th>文件名</th>
+                <th>大小</th>
+                <th>操作</th>
+                <th>注释</th>
+            </thead>
+            <tbody>
+                <!-- os.asm f1 -->
+                <tr id="f1">
+                    <td>os.asm</td>
+                    <td>256字节</td>
+                    <td>
+                        <a href="os.asm" download="os.asm">下载</a>
+                        <a href="os.asm">查看</a>
+                    </td>
+                    <td>最简单的操作系统源码</td> 
+                </tr>
+
+                <!-- os.bin f2 -->
+                <tr id="f2">
+                    <td>os.bin</td>
+                    <td>512字节</td>
+                    <td><a href="os.bin" download="os.bin">下载</a></td>
+                    <td>使用nasm编译生成的二进制文件</td> 
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
